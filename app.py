@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
 # Update Connection String Here
-connection_string="Driver={ODBC Driver 18 for SQL Server};Server=tcp:devopsinsidersdb.database.windows.net,1433;Database=todoapp;Uid=devopsinsider;Pwd=shivesh@1234;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30"
+connection_string="Driver={ODBC Driver 17 for SQL Server};Server=tcp:devopsinsidersdb.database.windows.net,1433;Database=todoapp;Uid=devopsinsider;Pwd=shivesh@1234;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30"
 
 app = FastAPI()
 
